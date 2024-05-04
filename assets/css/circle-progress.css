@@ -1,0 +1,47 @@
+.download-banner .step-content-wrap .time-content .time-download {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-banner .step-content-wrap .time-content .time-download .f-download-btn {
+    margin-top: 0px;
+}
+
+.download-banner .step-content-wrap .time-content .time-download svg {
+    width: 178px;
+    height: 178px;
+    transform: rotate(-90deg);
+}
+
+.download-banner .step-content-wrap .time-content .time-download svg~h2.time-download-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2CB3FF;
+}
+
+.download-banner .step-content-wrap .time-content .time-download svg circle:nth-child(1) {
+    fill: none;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke: #BFBFBF;
+}
+
+.download-banner .step-content-wrap .time-content .time-download svg circle:nth-child(2) {
+    fill: none;
+    stroke-width: 16px;
+    stroke: #2CB3FF;
+    stroke-linecap: round;
+
+    stroke-dasharray: 500;
+    /* transition: 1.2s; */
+}

@@ -1,0 +1,586 @@
+.container {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+header,
+section,
+footer {
+    padding: 0 20px;
+}
+
+/* all free download button start */
+.f-download-btn {
+    width: 100%;
+    max-width: 317px;
+    padding: 20px;
+    border-radius: 9rem;
+    background: linear-gradient(135deg, #6CCAFF 0%, #009AF1 100%);
+    box-shadow: 0px 20px 50px 0px #1AA6F559;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* all free download button end */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 24px 0;
+}
+
+header .navbar .language button {
+    display: flex;
+}
+
+header .navbar .language button ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header .navbar .language button span.icon {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner-bg.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner .banner-wrap .banner__btn {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 317px;
+    padding: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10rem;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #000;
+}
+
+/* step by step */
+.step-content {
+    background-color: #fff;
+}
+
+.step-content .step-content-wrap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-content .step-content-wrap h2.title {
+    max-width: 700px;
+}
+
+.step-content .step-content-wrap .step-box {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.step-content .step-content-wrap .step-box .step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 342px;
+}
+
+.step-content .step-content-wrap .step-box .step-item img.step-box-img {
+    width: 116px;
+    height: 116px;
+}
+
+.step-content .step-content-wrap .step-box .step-item h2.box-title {
+    margin-top: 24px;
+}
+
+.step-content .step-content-wrap .step-box .step-item p.box-info {
+    margin-top: 16px;
+}
+
+.step-content .step-content-wrap .f-download-btn {
+    margin-top: 120px;
+}
+
+.d-easier {
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.d-easier .d-easier-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-easier .d-easier-content h2.title {
+    max-width: 750px;
+}
+
+.d-easier .d-easier-content .flex-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.d-easier .d-easier-content .flex-content .text-content,
+.d-easier .d-easier-content .flex-content .images-content {
+    position: relative;
+    width: 100%;
+}
+
+.d-easier .d-easier-content .flex-content .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.d-easier .d-easier-content .flex-content .text-content .text-item {
+    display: flex;
+    gap: 24px;
+    min-height: 108px;
+}
+
+.d-easier .d-easier-content .flex-content .text-content .text-item img.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.d-easier .d-easier-content .flex-content .text-content .text-item .text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.d-easier .d-easier-content .flex-content .text-content .text-item .text-box h2.item-title,
+.d-easier .d-easier-content .flex-content .text-content .text-item .text-box p.item-info {
+    text-align: left;
+}
+
+.d-easier .d-easier-content .flex-content .images-content img.full_img {
+    position: relative;
+    left: 0;
+    width: 635px;
+    max-width: 635px;
+    height: auto;
+    z-index: 0;
+}
+
+.d-easier .d-easier-content .flex-content .images-content img.top_img {
+    position: absolute;
+    top: -58.94px;
+    left: 35.28px;
+    width: 100%;
+    max-width: 483.89px;
+    height: auto;
+    box-shadow: 0px 20.58px 47.04px 0px #00000040;
+    z-index: 2;
+}
+
+.d-easier .d-easier-content .flex-content .images-content img.bottom_img {
+    position: absolute;
+    right: 35.28px;
+    bottom: -58.94px;
+    width: 100%;
+    max-width: 483.89px;
+    height: auto;
+    box-shadow: 0px 20.58px 47.04px 0px #00000040;
+    z-index: 1;
+}
+
+
+.reviews {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.reviews .reviews-content h2.title {
+    text-align: center;
+}
+
+.reviews .reviews-content .reviews-blog {
+    max-width: 1076px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item img.user-img {
+    width: 120px;
+    height: 120px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item.left_user .reviews-text {
+    border-radius: 32px 32px 32px 0px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item.right_user .reviews-text {
+    border-radius: 32px 32px 0px 32px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .reviews-text {
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 15px 35px 0px #0000001A;
+    padding: 32px;
+    width: 100%;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .reviews-text-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .reviews-text-title .reviews-star {
+    display: flex;
+    gap: 2px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .reviews-text-title .reviews-star img,
+.reviews .reviews-content .reviews-blog .reviews-item .r-user-name img.user-fill-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item p.r-info {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .r-user-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.reviews .reviews-content .reviews-blog .reviews-item .r-user-name h2.user-title {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    background: linear-gradient(135deg, #6CCAFF 0%, #009AF1 100%);
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.waiting .d-easier-content .flex-content {
+    align-items: stretch;
+}
+
+.waiting .d-easier-content .flex-content .images-content img.top_img {
+    top: -62px;
+    left: 30px;
+}
+
+.waiting .d-easier-content .flex-content .text-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.waiting .d-easier-content .flex-content .text-content p.text-info {
+    text-align: left;
+}
+
+/*  */
+.uninstall-banner {
+    min-height: 100vh;
+    margin-top: 152px;
+    padding-bottom: 160px;
+}
+
+.uninstall-banner .step-content-wrap p.info {
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.uninstall-banner .step-content-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.download-banner .step-content-wrap {
+    padding-bottom: 160px;
+}
+
+.download-banner .step-content-wrap .time-content {
+    margin-top: 40px;
+}
+
+.download-banner .step-content-wrap .time-content .time-text p.info {
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #262626;
+}
+
+.download-banner .step-content-wrap .time-content .time-text p.info a {
+    color: #2CB3FF;
+}
+
+
+/*  */
+.almost-banner {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.almost-banner .banner-wrap {
+    position: relative;
+}
+
+.almost-banner .banner-wrap .arrow-top-btn {
+    position: fixed;
+    right: 70px;
+    top: 16px;
+}
+
+.almost-banner .banner-wrap .arrow-top-btn img {
+    width: 48px;
+    height: 48px;
+}
+
+.almost-banner .banner-wrap .download-icon-link {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 15px 35px 0px #00000012;
+    border: 1px solid #E6E6E6;
+}
+
+.almost-banner .banner-wrap p.info {
+    margin-top: 40px;
+    font-weight: 400;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.almost-banner .banner-wrap p.info a.link-chrome {
+    color: #2CB3FF;
+    font-weight: 700;
+}
+
+.almost-banner .banner-wrap p.info a.link {
+    color: #2CB3FF;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+/*  */
+.install.step-content .step-content-wrap {
+    padding-top: 152px;
+}
+
+.install.step-content .step-content-wrap p.info {
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.install.step-content .step-content-wrap .f-download-btn {
+    margin-top: 100px;
+}
+
+/*  */
+.tutorial-content.step-content .tutorial-box.step-box {
+    margin-top: 40px;
+}
+
+.tutorial-content.step-content .tutorial-box.step-box .step-item {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tutorial-content.step-content .tutorial-box.step-box .step-item img.tutorial-img {
+    width: 100%;
+    height: auto;
+}
+
+/*  */
+.about {
+    padding-top: 152px;
+    padding-bottom: 160px;
+    min-height: 100vh;
+}
+
+/* .about h2.title {} */
+
+.about .about-flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.about .about-flex .map-content,
+.about .about-flex .text-content {
+    width: 100%;
+}
+
+.about .about-flex .map-content iframe.map {
+    width: 100%;
+    height: 357.19px;
+}
+
+.about .about-flex .text-content h2.about-title {
+    text-align: left;
+}
+
+.about .about-flex .text-content p.about-info {
+    margin-top: 8px;
+    text-align: left;
+}
+
+.about .about-flex .text-content p.about-info a {
+    color: #2CB3FF;
+}
+
+/*  */
+.privacy-policy {
+    padding-top: 152px;
+    padding-bottom: 160px;
+}
+
+.privacy-policy h2.title {
+    text-align: left;
+}
+
+.privacy-policy p.info {
+    text-align: left;
+    margin-top: 100px;
+}
+
+/*  */
+.eula {
+    padding-top: 152px;
+    padding-bottom: 160px;
+}
+
+.eula h2.title {
+    text-align: left;
+}
+
+.eula p.info {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.eula p.info b {
+    font-weight: 700;
+}
+
+.eula p.info span.bold {
+    font-weight: 700;
+}
+
+/*  */
+.d_none {
+    display: none !important;
+}
+
+/*  */
+
+/* footer */
+footer {
+    background-color: #262626;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .footer-content .f-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+footer .footer-content .f-menu li a {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}

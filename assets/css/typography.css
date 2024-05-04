@@ -1,0 +1,89 @@
+header .navbar .language button ul li a {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner .banner-wrap h2.title {
+    max-width: 850px;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .banner-wrap p.info {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.step-content .step-content-wrap h2.title,
+.d-easier .d-easier-content h2.title,
+.reviews .reviews-content h2.title,
+.almost-banner .banner-wrap h2.title,
+.about h2.title,
+.privacy-policy h2.title,
+.eula h2.title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.step-content .step-content-wrap h2.title span,
+.d-easier .d-easier-content h2.title span,
+.step-content .step-content-wrap .step-box .step-item p.box-info span {
+    color: #2CB3FF;
+}
+
+.step-content .step-content-wrap .step-box .step-item h2.box-title,
+.d-easier .d-easier-content .flex-content .text-content .text-item .text-box h2.item-title,
+.reviews .reviews-content .reviews-blog .reviews-item .reviews-text-title h2.r-title,
+.uninstall-banner .step-content-wrap p.info,
+.almost-banner .banner-wrap p.info,
+.install.step-content .step-content-wrap p.info,
+.about .about-flex .text-content h2.about-title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #262626;
+}
+
+.step-content .step-content-wrap .step-box .step-item p.box-info,
+.d-easier .d-easier-content .flex-content .text-content .text-item .text-box p.item-info,
+.reviews .reviews-content .reviews-blog .reviews-item p.r-info,
+.waiting .d-easier-content .flex-content .text-content p.text-info,
+.about .about-flex .text-content p.about-info,
+.privacy-policy p.info,
+.eula p.info {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #262626;
+}
